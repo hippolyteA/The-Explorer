@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818a1c2bb0578bd43a8b77947b6a61b7, type: 3}
+  m_Name: SmallPotionHeal
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 029812baf8cf4b14f98bff1528272691, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: requirementToCraft
+      Entry: 7
+      Data: 0|Sc_itemSlot[,], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: ranks
+      Entry: 1
+      Data: 5|1
+    - Name: 
+      Entry: 7
+      Data: Sc_itemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sc_itemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sc_itemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sc_itemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Sc_itemSlot, Assembly-CSharp
+    - Name: ItemCount
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Icon: {fileID: 2800000, guid: e93e71e3bc6a6264fa13f9c6b2627f5f, type: 3}
+  Name: Small Potion Heal
+  Type: 1
+  price: 2
+  ItemRarity: 1
+  ItemStackSize: 999
+  Effect: 0
+  Size: 0
+  ConsumeTime: 0.6
+  heal: 2
